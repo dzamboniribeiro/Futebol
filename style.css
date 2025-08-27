@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background-color: white(165, 101, 157, 0.9);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #92ff97;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+    padding: 30px;
+}
+
+h2, h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.img-destaque {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: #006400;
+    color: white;
+}
+
+ul {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    background-color:black;
+    color: white;
+    padding: 10px 0;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #004d00;    
+}
+html, body{
+    background-image: url('1.jpg');
+}
